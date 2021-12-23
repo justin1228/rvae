@@ -11,7 +11,7 @@ from rvae.models.vae import RVAE, VAE
 from rvae.utils.save_utils import save_model, load_model
 
 
-class Experiment():
+class Experiment:
     def __init__(self, args):
         self.dataset = args.dataset.lower()
 
